@@ -1,0 +1,209 @@
+html {
+    min-width: 1000px;
+    background: #f8f6f7;
+}
+.menu-top {
+    display: flex;
+    background: white;
+    position: sticky;
+    top: 0px;
+}
+
+.largura-topo {    
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.menu-topo-flex {
+	display: flex;   
+}
+
+.menu-top-left{
+    display: flex;
+    font: bold 2em sans-serif;    
+}
+
+.menu-top-left-viagens {
+    font: bold .3em sans-serif;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.menu-top-right {
+    text-align: right;
+    word-spacing: 20px;
+    font: .5 sans-serif;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.menu-top-right, .menu-top-left{
+    flex: 1;
+}
+
+.number-one {
+    color: #f35926
+}
+
+.number-two {
+    color: #fcb929
+}
+
+.number-three {
+    color: #00b049
+}
+
+.cabecalho {
+    height: 350px;
+    background: url("../img/barcos.webp") ;
+    background-size: 100% 300px ;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 1em;
+    
+}
+
+.caixa-branca {
+    width: 1000px;
+    background: white;
+    margin: auto;
+    border-radius: 1em;
+    padding: 25px;
+}
+
+form {
+    margin: auto;
+    width: 100%;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    column-gap: .5em;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font:  bold 1.2em sans-serif;
+}
+
+.campo {
+    width: 100%;
+    height: 2em;
+    font: bold 1em sans-serif;
+}
+
+.botao {
+    width: 100%;
+    height: 2em;
+    background: #ea3d35;
+    border: none;
+    border-radius: .3em;
+    color: white;
+    font: bold 1em sans-serif;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    top: 10px;     
+}
+
+.tabela-viagem {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    margin: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-bottom: 100px;
+}
+
+.caixa-viagem {
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    border-radius: 10px;  
+
+}
+
+#rio-de-janeiro {
+    background: url("../img/rio.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#bonito {
+    background: url("../img/bonito.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#sao-paulo {
+    background: url("../img/sao-paulo.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#foz-do-iguacu {
+    background: url("../img/foz.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#maceio {
+    background: url("../img/maceio.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#salvador {
+    background: url("../img/salvador.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#fortaleza {
+    background: url("../img/fortaleza.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#belo-horizonte {
+    background: url("../img/belo-horizonte.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.ver-mais-botao {
+    border-radius: 20px;
+    background-color: white;
+    width: 70%;
+    height: 25px;
+    border: none;    
+}
+
+.cidade {
+    font:  bold 1em sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+
+.preco {
+    font:  bold 2em sans-serif;
+    color:white;
+    margin-top: 30px;
+}
+
+.cidade, .preco{
+    text-shadow: #000000 1px 1px 8px;
+}
+
+.ver-mais-botao {
+    box-shadow: #000000 1px 1px 8px;
+    margin-top: 30px;
+}
